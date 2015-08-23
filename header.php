@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html>
 <head>
@@ -8,14 +10,13 @@
 	<script src="//code.jquery.com/jquery-latest.min.js"></script>
 	<script src="//unslider.com/unslider.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<title>BSFWire</title>
-	<link href="bootstrap.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
-	
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
-
 <body>
 	<header class="header">
 		<div class="wrapper">

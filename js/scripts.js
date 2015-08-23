@@ -1,27 +1,27 @@
 $(function() {
 
-	function slidersize(){
-		var $ace = $('#ace');
-		var aceheight = $ace.height();
-		var acewidth = $ace.width();
-		$('.slider ul li').css({'height' : aceheight});
-		$('.slider ul div').each(function(){
-			 $this = $(this);
-		 	 $div_height =  $this.height();
-		 	 $doublepadding = aceheight - $div_height - 26;
-		 	 $padding = $doublepadding * 0.5;
-		 	 $this.parent().css({'padding-top' : $padding, 'padding-bottom' : $padding  });
-		})
-	}
-	slidersize();
-	$(window).on('resize', function(){
-		slidersize();
-	})
+	// function slidersize(){
+	// 	var $ace = $('#ace');
+	// 	var aceheight = $ace.height();
+	// 	var acewidth = $ace.width();
+	// 	$('.slider ul li').css({'height' : aceheight});
+	// 	$('.slider ul div').each(function(){
+	// 		 $this = $(this);
+	// 	 	 $div_height =  $this.height();
+	// 	 	 $doublepadding = aceheight - $div_height - 26;
+	// 	 	 $padding = $doublepadding * 0.5;
+	// 	 	 $this.parent().css({'padding-top' : $padding, 'padding-bottom' : $padding  });
+	// 	})
+	// }
+	// slidersize();
+	// $(window).on('resize', function(){
+	// 	slidersize();
+	// })
 
 
 
 	function slidersize2(){
-		var $ace = $('#computer');
+		var $ace = $('#heightref');
 		var aceheight = $ace.height();
 		var acewidth = $ace.width();
 		$('.slider ul li').css({'height' : aceheight});
@@ -35,17 +35,19 @@ $(function() {
 	}
 	slidersize2();
 	$(window).on('resize', function(){
+		var heighta = $('#heightref').height();
+		console.log(heighta);
 		slidersize2();
-	})
-
+	 })
+	
 
 
 	$('.slider').unslider({
-		speed: 500,               //  The speed to animate each slide (in milliseconds)
-		delay: 3000,              //  The delay between slide animations (in milliseconds)
+		speed: 1000,               //  The speed to animate each slide (in milliseconds)
+		delay: 10000,              //  The delay between slide animations (in milliseconds)
 		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-		dots: true,               //  Display dot navigation
-		fluid: true,              //  Support responsive design. May break non-responsive designs
+		dots: false,               //  Display dot navigation
+		fluid: false,              //  Support responsive design. May break non-responsive designs
 		complete: function() {}  //  A function that gets called after every slide animation
 	});
 
@@ -58,8 +60,8 @@ $(function() {
 
 		var double_padding_1 = approche3_height + approche4_height + 180 - approche1_height;
 		var padding_1 = double_padding_1 * 0.5;
-		console.log(approche2_height);
-		console.log(approche5_height);
+		console.log(approche3_height);
+		console.log(approche4_height);
 		$('#approche-1').css({'padding-top' : padding_1, 'padding-bottom' : padding_1 });
 
 		if (approche2_height > approche5_height) {
@@ -76,22 +78,6 @@ $(function() {
 	$(window).on('resize', function(){
 		approche_box_size();
 	})
-
-
-	function gearheight(){
-		var gearheight = $('#gears').height() * 0.7;
-		$('.travail-banner').css({'height' : gearheight })
-		var function_form_height = $('.function_form').height();
-		var function_form_padding_top = (gearheight - function_form_height) *0.3;
-		var function_form_padding_bottom = (gearheight - function_form_height) *0.7;
-		$('.function_form').css({'padding-top' : function_form_padding_top, 'padding-bottom' : function_form_padding_bottom})
-	}
-	gearheight();
-	$(window).on('resize', function(){
-		gearheight();
-	})
-
-
 //Email redirect
 
 $('#contactus').on('submit' ,  function(e){
@@ -117,7 +103,7 @@ $('#contactus').on('submit' ,  function(e){
 	}
 
 	if ($error != '') {
-		$('#message').html($error).addClass('warning').removeClass('success').fadeIn();
+		$('#message').html($error).addClass('infobox').addClass('warning').removeClass('success').fadeIn();
 		setTimeout(function(){ $('#message').fadeOut(); }, 5000);
 		
 

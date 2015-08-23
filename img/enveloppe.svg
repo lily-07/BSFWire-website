@@ -1,18 +1,18 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="297.64px" height="209.025px" viewBox="0 0 297.64 209.025" enable-background="new 0 0 297.64 209.025"
+<svg version="1.1" id="enveloppe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+ viewBox="0 0 297.64 209.025" enable-background="new 0 0 297.64 209.025"
 	 xml:space="preserve">
-<polygon class="path"  fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+<polygon class="path"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 	190.628,106.706 235.873,147.128 281.118,187.55 281.118,106.706 281.118,25.862 235.873,66.284 "/>
-<polygon class="path"  fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+<polygon class="path"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 	107.012,106.706 61.767,66.284 16.521,25.862 16.521,106.706 16.521,187.55 61.767,147.128 "/>
 <g>
 
 	
-		<path class="path"   fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		<path class="path"   fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 		M139.828,124.193c5.103,4.53,12.786,4.53,17.887,0l54.27-48.2l63.212-56.143H148.772H22.349l63.212,56.143l54.251,48.185
 		L139.828,124.193z"/>
 	
-		<path  class="path" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		<path  class="path" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 		M135.235,130.458l-21.396-18.923l-28.236,25.137l-62.864,55.96h125.728h125.729l-62.864-55.96l-27.676-24.637l-21.26,18.524
 		C154.602,137.35,142.979,137.307,135.235,130.458z"/>
 </g>
