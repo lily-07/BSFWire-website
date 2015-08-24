@@ -136,9 +136,14 @@ hr.littlehr {
 	color: white;
 }
 
+
+
+
+
 .slider { 
 	position: relative; 
 	overflow: auto; 
+	background: #FAFAFA; 
 }
 
 .slider li { 
@@ -146,16 +151,17 @@ hr.littlehr {
 }
 .slider ul li { 
 	float: left;
-	background: #FAFAFA; 
 }
+
 .slider ul li div {
-	padding:0 10%;
+	padding: 10px 30px 10px 30px;
 }
 
 .slider blockquote {
 	font-style: italic; 
 	text-align: left;
 }
+
 .slider cite {
 	display: block; 
 	margin-top: 20px; 
@@ -178,7 +184,8 @@ hr.littlehr {
 	right: 0;
 	bottom: 10px;
 	text-align: center;
-}	
+}
+
 .slider .dots li {
 	display: inline-block;
 	width: 10px;
@@ -425,6 +432,9 @@ footer p {
 	visibility:hidden;
 }
 
+.landing{
+	margin-top: 60px;
+}
 
 .landing .button-container{
 	margin: 75px 0 100px 0;

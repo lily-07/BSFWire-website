@@ -49,7 +49,7 @@
 		    				<cite id="ronen">Sergio / COO / <a href="#">PB&amp;B SA</a></cite></div>
 				        </li>
 				        <li>
-		    				<div><blockquote><p>“ L’équipe de BSF a su parfaitement être à l’écoute de nos demandes, avec une exécution rapide, sur mesure et de qualité.</p><p>Malgré leurs jeunes ages, ils ont su faire preuve d'un grand professionnalisme pour nous aider à developper un site de qualité ainsi qu'une ligne graphique qui correspond aux valeurs de PB&amp;B. ‘’</p></blockquote>
+		    				<div><blockquote><p>“ L’équipe de BSF a su parfaitement être à l’écoute de nos demandes,  ‘’</p></blockquote>
 		    				<cite id="ronen">Sergio / COO / <a href="#">PB&amp;B SA</a></cite></div>
 				        </li>
 				    </ul>

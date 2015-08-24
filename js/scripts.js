@@ -18,36 +18,37 @@ $(function() {
 	// 	slidersize();
 	// })
 
-
-
 	function slidersize2(){
 		var $ace = $('#heightref');
-		var aceheight = $ace.height();
-		var acewidth = $ace.width();
-		$('.slider ul li').css({'height' : aceheight});
+		var height = $ace.height();
+		var width = $ace.width();
+
+		$('.slider ul li').css({'height' : height});
 		$('.slider ul div').each(function(){
 			 $this = $(this);
 		 	 $div_height =  $this.height();
-		 	 $doublepadding = aceheight - $div_height - 26;
+		 	 $doublepadding = height - $div_height - 26;
 		 	 $padding = $doublepadding * 0.5;
 		 	 $this.parent().css({'padding-top' : $padding, 'padding-bottom' : $padding  });
 		})
+
+		console.log(height);
 	}
+
 	slidersize2();
+
 	$(window).on('resize', function(){
 		var heighta = $('#heightref').height();
-		console.log(heighta);
 		slidersize2();
-	 })
-	
+	})
 
 
 	$('.slider').unslider({
 		speed: 1000,               //  The speed to animate each slide (in milliseconds)
 		delay: 10000,              //  The delay between slide animations (in milliseconds)
 		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-		dots: false,               //  Display dot navigation
-		fluid: false,              //  Support responsive design. May break non-responsive designs
+		dots: true,               //  Display dot navigation
+		fluid: true,              //  Support responsive design. May break non-responsive designs
 		complete: function() {}  //  A function that gets called after every slide animation
 	});
 
@@ -60,8 +61,8 @@ $(function() {
 
 		var double_padding_1 = approche3_height + approche4_height + 180 - approche1_height;
 		var padding_1 = double_padding_1 * 0.5;
-		console.log(approche3_height);
-		console.log(approche4_height);
+		//console.log(approche3_height);
+		//console.log(approche4_height);
 		$('#approche-1').css({'padding-top' : padding_1, 'padding-bottom' : padding_1 });
 
 		if (approche2_height > approche5_height) {
