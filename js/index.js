@@ -34,13 +34,13 @@ phoneGroup = select('.phoneGroup'),phoneButton = select('.phoneButton'),phoneCam
 
 
 //center the container cos it's pretty an' that
-TweenMax.set(container, {
-  position:'absolute',
-  top:'100%',
-  left:'50%',
-  xPercent:-50,
-  yPercent:-50
-})
+// TweenMax.set(container, {
+//   position:'absolute',
+//   top:'100%',
+//   left:'50%',
+//   xPercent:-50,
+//   yPercent:-50
+// })
 
 TweenMax.set([ monitorBottom], {
   transformOrigin:'50% 100%'

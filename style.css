@@ -132,7 +132,7 @@ hr.littlehr {
 	position: relative;
 	width:100%;
 	height: 350px;
-	#overflow: hidden;
+	overflow: hidden;
 	color: white;
 }
 
@@ -203,7 +203,7 @@ hr.littlehr {
 
 /* SLIDER */
 .slider cite#ronen {
-	background-image: url(../img/ronen-manager.png);
+	background-image: url(img/ronen-manager.png);
 }
 
 /*------------------------------------*\
@@ -343,22 +343,22 @@ footer p {
 }
 
 #linkedin { 
-	background: url(../img/linkedin.png) no-repeat center;
+	background: url(img/linkedin.png) no-repeat center;
 	background-size: 30px 30px; 
 }
 
 #linkedin:hover { 
-	background: url(../img/linkedinw.png) no-repeat center;
+	background: url(img/linkedinw.png) no-repeat center;
 	background-size: 30px 30px; 
 }
 
 #facebook{ 
-	background: url(../img/facebook.png) no-repeat center;
+	background: url(img/facebook.png) no-repeat center;
 	background-size: 30px 30px; 
 }
 
 #facebook:hover{ 
-	background: url(../img/facebookw.png) no-repeat center;
+	background: url(img/facebookw.png) no-repeat center;
 	background-size: 30px 30px; 
 }
 
@@ -388,24 +388,14 @@ footer p {
 	background: #FFC300;
 }
 
-.index-banner .anim{
-	background: red;
-  	height:100%;
+.anim{
+  max-width:600px;
+  height:600px;
 }
 
-.index-banner p{
-	padding-left: 10px;
-	margin-top: 120px;
-	font-size: 2.7em; 
-	line-height: 120%; 
-	font-weight: 400;
-}
-
-.index-banner svg{
-	max-width:100%;
-	padding-right: 10px; 
-	float: right;
-	visibility:hidden;
+.anim svg{
+  max-width:100%;
+  visibility:hidden;
 }
 
 
@@ -454,24 +444,24 @@ footer p {
 }
 #approche-1 {
 	background-color: #FFC300; 
-	background-image: url(../img/approche1.png); 
+	background-image: url(img/approche1.png); 
 }
 #approche-2 {	
 	background-color: #E4538F; 
-	background-image: url(../img/approche2.png); 
+	background-image: url(img/approche2.png); 
 }
 #approche-3 {
 	background-color: #80DA76; 
-	background-image: url(../img/approche3.png); 
+	background-image: url(img/approche3.png); 
 }
 #approche-4 {
 	background-color: #32B1E8; 
-	background-image: url(../img/approche4.png); 
+	background-image: url(img/approche4.png); 
 }
 #approche-5 {
 	color: white; 
 	background-color: #414953; 
-	background-image: url(../img/approche5.png); 
+	background-image: url(img/approche5.png); 
 }
 
 
@@ -482,7 +472,7 @@ footer p {
 /* BANNER */
 .nous-banner {
 	background: #DF1E85;
-	background: url(../img/group.jpg) no-repeat;
+	background: url(img/group.jpg) no-repeat;
 	background-size: cover;
    	background-position: top;
 }
@@ -506,7 +496,7 @@ footer p {
 }
 
 .computerpic #heightref {
- 	background: url(../img/pbb_mock.jpg) no-repeat;
+ 	background: url(img/pbb_mock.jpg) no-repeat;
  	background-size: cover;
    	background-position: center;
 }
@@ -579,7 +569,7 @@ img.portrait {
 	}
 
 	.fist{
-		background: url(../img/career.png) no-repeat;
+		background: url(img/career.png) no-repeat;
 		background-size: 50px; 
 		background-position: right 20px center;  
 		padding: 30px 90px 30px 0; 
@@ -623,26 +613,13 @@ img.portrait {
 }
 
 #pbb {
-	background: url(../img/pbb.jpg)  no-repeat; 
+	background: url(img/pbb.jpg)  no-repeat; 
 	background-size: cover; 
 	background-position: center
 }
 
 #pbb:hover {
-	background: url(../img/pbbhover.jpg)  no-repeat; 
-	background-size: cover; 
-	background-position: center
-}
-
-
-#technis {
-	background: url(../img/technis.jpg)  no-repeat; 
-	background-size: cover; 
-	background-position: center
-}
-
-#technis:hover {
-	background: url(../img/technishover.jpg)  no-repeat; 
+	background: url(img/pbbhover.jpg)  no-repeat; 
 	background-size: cover; 
 	background-position: center
 }
