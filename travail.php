@@ -3,7 +3,9 @@
 <div class="banner travail-banner">
 	<div class="wrapper">
 		<div class="row">
-			<div class=""><?php include('img/gears.svg') ?> </div>
+			<object>
+				<?php include('img/gears.svg') ?>
+			</object>
 			<p class="col-sm-offset-6 col-sm-6 col-xs-12">Function and Form,<br> Together</p>
 		</div>
 	</div>

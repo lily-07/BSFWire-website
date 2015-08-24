@@ -1,6 +1,10 @@
-<svg version="1.1" id="enveloppe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- viewBox="0 0 297.64 209.025" enable-background="new 0 0 297.64 209.025"
-	 xml:space="preserve">
+<svg version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	id="enveloppe" 
+ 	viewBox="0 0 300 210"
+	xml:space="preserve">
 <polygon class="path"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 	190.628,106.706 235.873,147.128 281.118,187.55 281.118,106.706 281.118,25.862 235.873,66.284 "/>
 <polygon class="path"  fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="

@@ -3,8 +3,10 @@
 <div class="banner contact-banner">
 	<div class="wrapper">
 		<div class="row">
-			<div class="col-sm-offset-1 col-sm-4 ">
-                <?php include('img/enveloppe.svg') ?>
+			<div class="col-sm-offset-1 col-sm-4">
+				<object>
+                	<?php include('img/enveloppe.svg') ?>
+                </object>
             </div>
 			<div class="col-sm-6">
 				<div class="contact-us">
