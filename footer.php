@@ -19,7 +19,7 @@
 </footer>
 
 <script type="text/javascript" src="js/scripts.js"></script>
-<!--<script type="text/javascript" src="js/circle.js"></script>-->
+<script type="text/javascript" src="js/circle.js"></script>
 <script type="text/javascript" src='https://dl.dropboxusercontent.com/u/1256960/%20Research/JS/AnticipateEase/TweenMax.js'></script>
 <script type="text/javascript" src="js/index.js"></script>
 </body>
