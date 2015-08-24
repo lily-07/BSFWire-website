@@ -164,7 +164,7 @@
 			</div>
 			<div class="col-sm-6 col-xs-12">
 				<div class="enclosing_img">
-					<a id="pbb" href="http://www.pbbtech.ch">PB&amp;B</a>
+					<a id="technis" href="http://www.pbbtech.ch">PB&amp;B</a>
 				</div>
 			</div>
 			<div class="col-sm-6 col-xs-12" id="heightref">
